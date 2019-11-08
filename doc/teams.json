@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5d9847b2e0d6de2c02cfa095"},"name":"my team","description":"the users inside this team are the generic users wich does not belong to any team","createdAt":{"$date":{"$numberLong":"1570260914807"}},"updatedAt":{"$date":{"$numberLong":"1570260914807"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d9af1ed647f90214592b26c"},"name":"test team 4","description":"","createdAt":{"$date":{"$numberLong":"1570435565680"}},"updatedAt":{"$date":{"$numberLong":"1570435565680"}},"__v":{"$numberInt":"0"}}

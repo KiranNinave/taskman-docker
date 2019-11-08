@@ -1,0 +1,49 @@
+# admin routes
+
+## role (only working in development)
+POST /admin/role
+
+## admin (only working in development )
+POST /admin/admin
+
+## login
+POST /admin/login
+
+## user
+POST /admin/user
+
+## workspace
+GET /admin/home
+GET /admin/home/workspace_id
+POST /admin/home
+PUT /admin/home/workspace_id
+DELET /admin/home/workspace_id
+
+## project
+GET /admin/project/
+GET /admin/project/?filter=workspace_id
+GET /admin/project/project_id
+POST /admin/project/
+POST /admin/project/?filter=workspace_id
+PUT /admin/project/project_id
+DELET /admin/project/project_id
+
+/admin/task/
+
+/admin/team/
+
+/admin/user
+
+/admin/inbox
+
+
+#user
+
+/
+
+## login
+/login
+
+/user_id/home
+
+/user_id/project

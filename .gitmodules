@@ -1,0 +1,6 @@
+[submodule "taskman_backend"]
+	path = taskman_backend
+	url = https://github.com/KiranNinave/taskman_backend.git
+[submodule "taskman_website"]
+	path = taskman_website
+	url = https://github.com/KiranNinave/taskman_website.git

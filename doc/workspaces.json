@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5d985872c70a1430ba582bbf"},"description":"this is an generic workspace for all users","name":"my workspace","user":{"$oid":"5d98498af8a9522d796d52d3"},"createdAt":{"$date":{"$numberLong":"1570265202805"}},"updatedAt":{"$date":{"$numberLong":"1570273348028"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d9ae721647f90214592b26a"},"description":"test workspace","name":"test workspace 4","user":{"$oid":"5d98498af8a9522d796d52d3"},"createdAt":{"$date":{"$numberLong":"1570432801562"}},"updatedAt":{"$date":{"$numberLong":"1570432801562"}},"__v":{"$numberInt":"0"}}
