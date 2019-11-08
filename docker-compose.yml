@@ -14,21 +14,21 @@ services:
             - "27017:27017"
     client:
         build:
-            context: ./client
+            context: ./taskman_website
             dockerfile: Dockerfile
         volumes:
             - /app/node_modules
-            - ./client:/app
+            - ./taskman_website:/app
     api:
         build:
-            context: ./server
+            context: ./taskman_backend
             dockerfile: Dockerfile
         ports:
             - "4000:4000"
             - "9229:9229"
         volumes:
             - /app/node_modules
-            - ./server:/app
+            - ./taskman_backend:/app
         environment:
             - PORT=4000
             - NODE_ENV=development
